@@ -1,0 +1,105 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 60px;
+  background: #3b5d50; 
+  color: #fff;
+}
+
+.logo{
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navlinks{
+  display: flex;
+  list-style: none;
+  gap: 30px; 
+}
+
+.navlinks li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.navlinks li a:hover{
+  opacity: 1;
+  border-bottom: 4px solid #f9bf29; /* hover e holud dag */
+  padding-bottom: 5px;
+}
+
+
+
+.hero-banner{
+  background: #3b5d50;
+  padding: 80px 0;
+  color: #fff;
+}
+.hero-banner .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.left-content{
+  width: 45%;
+}
+.right-content{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ASOL KAJ EKHANE */
+.circle-container{
+  position: relative; /* Deyal */
+  width: 400px;
+  height: 400px;
+  background: #dce5e4;
+  border-radius: 50%; /* Circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img{
+  position: absolute; /* Vasbe */
+  width: 130%; /* Circle er cheye boro */
+  top: -20px; /* Upor diye vasbe */
+  left: -30px;
+  z-index: 2;
+}
+
+/* Button */
+.btn-1{
+  background: #f9bf29;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-2{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
