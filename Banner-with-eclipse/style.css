@@ -22,25 +22,31 @@
   min-height: 80vh;
 }
 .left-content{ width: 50%; }
-.title{ font-size: 54px; font-weight: 700; line-height: 1.2; margin: 15px 0; }
-.description{ color: #6a6a6a; margin: 20px 0; max-width: 450px; }
+.title{ font-size: 54px; font-weight: 700; color:white; line-height: 1.2; margin: 15px 0; }
+.description{ color: white; margin: 20px 0; max-width: 450px; }
 .btn-group{ display:flex; gap:15px; }
 .btn-1{ background:rgb(244, 183, 70); color:#fff; padding:12px 28px; border:none; border-radius:30px; }
 .btn-2{ background:transparent; border:1px solid green ; color:white; padding:12px 28px; border-radius:30px; }
 
-/* RIGHT SIDE - Main Trick */
-.right-content{
-  width: 50%;
-  position: relative; /* deyal */
-  height: 90vh;
+
+.banner-img-box{
+  position: relative;
+  width: 600px;
+  height: 500px;
 }
 
+.main-img{
+  width: 100%;
+  position: relative;
+  z-index: 2; 
+}
 
-.img-container{
+.eclipse-img{
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 650px;
-  z-index: 2; /* eclipse er upor */
+  top: 30px; 
+  right: -50px; 
+  width: 200px;
+  z-index: 1; 
+
+  
 }
-.couch{ width: 100%; }
