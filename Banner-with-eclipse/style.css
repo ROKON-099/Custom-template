@@ -1,0 +1,46 @@
+*{
+  margin:0; padding:0; box-sizing:border-box;
+}
+.wrapper{
+  background:#3B5D50; /* Navbar + Banner same BG */
+  min-height: 90vh;
+  overflow: hidden;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.logo{ font-weight: 700; color:white; font-size: 32px; }
+.nav-links{ display: flex; list-style: none; gap: 30px; margin:0; }
+.nav-links a{ text-decoration: none; color:white; font-weight: 500; }
+
+.banner{
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+.left-content{ width: 50%; }
+.title{ font-size: 54px; font-weight: 700; line-height: 1.2; margin: 15px 0; }
+.description{ color: #6a6a6a; margin: 20px 0; max-width: 450px; }
+.btn-group{ display:flex; gap:15px; }
+.btn-1{ background:rgb(244, 183, 70); color:#fff; padding:12px 28px; border:none; border-radius:30px; }
+.btn-2{ background:transparent; border:1px solid green ; color:white; padding:12px 28px; border-radius:30px; }
+
+/* RIGHT SIDE - Main Trick */
+.right-content{
+  width: 50%;
+  position: relative; /* deyal */
+  height: 90vh;
+}
+
+
+.img-container{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  z-index: 2; /* eclipse er upor */
+}
+.couch{ width: 100%; }
