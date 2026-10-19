@@ -1,0 +1,32 @@
+.hero-wrapper{
+background: url('./images/Banner-bg.png') no-repeat center / cover;
+position: relative;
+width: 100%;
+}
+
+.main-hero-img{
+  width: 100%;
+  height: auto; /* full show er jonno height auto must */
+  display: block;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+ 
+  z-index: 10;
+}
+
+.hero-text-right{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  text-align: right;
+  color:black;
+}
+.btn {
+    background-color:gray;
+    color:white;
+}
